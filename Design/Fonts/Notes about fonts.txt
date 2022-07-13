@@ -1,0 +1,4 @@
+Page header: Montserrat Subrayada
+Subheaders: CoolveticaRg-Regular
+Normal text: Myriad Pro Regular
+Semibold italic: Myriad Pro Semibold Italic

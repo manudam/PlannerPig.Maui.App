@@ -1,0 +1,1962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="General_Hour" xml:space="preserve">
+    <value>{0} hour</value>
+  </data>
+  <data name="General_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="General_Exam" xml:space="preserve">
+    <value>{0} exam</value>
+  </data>
+  <data name="General_Exams" xml:space="preserve">
+    <value>{0} exams</value>
+  </data>
+  <data name="General_Task" xml:space="preserve">
+    <value>{0} task</value>
+  </data>
+  <data name="General_Tasks" xml:space="preserve">
+    <value>{0} tasks</value>
+  </data>
+  <data name="General_Token" xml:space="preserve">
+    <value>{0} Bear token</value>
+  </data>
+  <data name="General_Tokens" xml:space="preserve">
+    <value>{0} Bear tokens</value>
+  </data>
+  <data name="General_ButtonYes" xml:space="preserve">
+    <value> Yes </value>
+  </data>
+  <data name="General_ButtonNo" xml:space="preserve">
+    <value> No </value>
+  </data>
+  <data name="OverviewPage_Title" xml:space="preserve">
+    <value>Overview Owl</value>
+  </data>
+  <data name="OverviewPage_UpcomingExamsTitle" xml:space="preserve">
+    <value>Upcoming Exams</value>
+  </data>
+  <data name="OverviewPage_ExamDetails" xml:space="preserve">
+    <value>{0} days to go{1}{2} hrs planned</value>
+  </data>
+  <data name="OverviewPage_TodoTodayTitle" xml:space="preserve">
+    <value>To-do Today</value>
+  </data>
+  <data name="OverviewPage_UpdateProgressButtonText" xml:space="preserve">
+    <value> Go to Panther </value>
+  </data>
+  <data name="OverviewPage_ThereAreOutstandingTasks" xml:space="preserve">
+    <value>Other outstanding tasks</value>
+  </data>
+  <data name="Event_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="OverviewPage_Remain" xml:space="preserve">
+    <value>{0}% remain</value>
+  </data>
+  <data name="OverviewPage_NoUpcomingExams" xml:space="preserve">
+    <value>Nothing set</value>
+  </data>
+  <data name="OverviewPage_RatingTitle" xml:space="preserve">
+    <value>Can you help?</value>
+  </data>
+  <data name="OverviewPage_RatingMessage" xml:space="preserve">
+    <value>Do you like the app? You are only TWO taps away from...</value>
+  </data>
+  <data name="OverviewPage_Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="OverviewPage_NoThanks" xml:space="preserve">
+    <value>No Thanks</value>
+  </data>
+  <data name="OverviewPage_TitleThisWeek" xml:space="preserve">
+    <value>Day {0}: This week so far</value>
+  </data>
+  <data name="OverviewPage_TitleLastStudied" xml:space="preserve">
+    <value>Last studied / updated</value>
+  </data>
+  <data name="OverviewPage_TitleUpcoming" xml:space="preserve">
+    <value>Upcoming</value>
+  </data>
+  <data name="OverviewPage_Restart" xml:space="preserve">
+    <value>Falling a bit behind...?</value>
+  </data>
+  <data name="OverviewPage_TasksCompleted" xml:space="preserve">
+    <value>{0} task(s) completed</value>
+  </data>
+  <data name="OverviewPage_TasksBearTokensCollected" xml:space="preserve">
+    <value>{0} bear tokens collected</value>
+  </data> 
+  <data name="OverviewPage_TasksHoursRescheduled" xml:space="preserve">
+    <value>{0} hour(s) rescheduled</value>
+  </data>
+  <data name="OverviewPage_TasksHoursStudied" xml:space="preserve">
+    <value>{0} hour(s) studied</value>
+  </data>
+  <data name="OverviewPage_Refreshing" xml:space="preserve">
+    <value>Refreshing Data</value>
+  </data>
+  <data name="OverviewPage_Reschedule" xml:space="preserve">
+    <value>You are about to reschedule all you outstanding tasks.{0}When do you want to restart your studies?</value>
+  </data>
+  <data name="OverviewPage_RescheduleTomorrow" xml:space="preserve">
+    <value> Tomorrow </value>
+  </data> 
+  <data name="OverviewPage_RescheduleInTwoDays" xml:space="preserve">
+    <value> In 2 days </value>
+  </data>
+  <data name="OverviewPage_RescheduleCancel" xml:space="preserve">
+    <value> Cancel </value>
+  </data>
+  <data name="OverviewPage_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="OverviewPage_Yesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="OverviewPage_DaysAgo" xml:space="preserve">
+    <value>{0} days ago</value>
+  </data>
+  <data name="OverviewPage_NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="OverviewPage_UpcomingAllDone" xml:space="preserve">
+    <value>Nothing - Caught up with everything!</value>
+  </data>
+  <data name="OverviewPage_UpcomingDueToday" xml:space="preserve">
+    <value>Today you are due to study {0} for {1}.</value>
+  </data>
+  <data name="OverviewPage_UpcomingHoursLeft_1" xml:space="preserve">
+    <value>There are altogether {0} left in your current topics.</value>
+  </data>
+  <data name="OverviewPage_UpcomingHoursLeft_2" xml:space="preserve">
+    <value>There are altogether {0} and {1} left in your current topics.</value>
+  </data>
+  <data name="OverviewPage_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="OverviewPage_Hour" xml:space="preserve">
+    <value>{0} hour</value>
+  </data>
+  <data name="OverviewPage_Exams" xml:space="preserve">
+    <value>{0} exams</value>
+  </data>
+  <data name="OverviewPage_Exam" xml:space="preserve">
+    <value>{0} exam</value>
+  </data>
+  <data name="OverviewPage_Tasks" xml:space="preserve">
+    <value>{0} tasks</value>
+  </data>
+  <data name="OverviewPage_Task" xml:space="preserve">
+    <value>{0} task</value>
+  </data>
+  <data name="PlannerPage_Title" xml:space="preserve">
+    <value>Planner Pig</value>
+  </data>
+  <data name="PlannerPage_EnterExamsTitle" xml:space="preserve">
+    <value>Enter exams</value>
+  </data>
+  <data name="PlannerPage_EnterHobbiesTitle" xml:space="preserve">
+    <value>Enter hobbies</value>
+  </data>
+  <data name="PlannerPage_ValidationNoMoreThanTenExams" xml:space="preserve">
+    <value>The maximum number of allowed exams is 10.</value>
+  </data>
+  <data name="PlannerPage_DeleteAll" xml:space="preserve">
+    <value> Delete all </value>
+  </data>
+  <data name="PlannerPage_DeleteAllTitle" xml:space="preserve">
+    <value>Delete all and reset</value>
+  </data>
+  <data name="PlannerPage_DeleteAllMessage" xml:space="preserve">
+    <value>Are you sure you want to delete all data and reset?</value>
+  </data>
+  <data name="PlannerPage_AdjustingStudyPlan" xml:space="preserve">
+    <value>Calculating your study plan</value>
+  </data>
+  <data name="PlannerPage_SavingData" xml:space="preserve">
+    <value>Saving your data</value>
+  </data>
+  <data name="PlannerPage_ValidationOverlappingPhaseTitle" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="PlannerPage_ValidationOverlappingPhaseTwoThreeMessage" xml:space="preserve">
+    <value>Consolidate phase will start later than the entered date due to rounding of scheduled hours.{0}To resolve, try increasing the number of hours in the regular timetable or delay the Consolidate start date.</value>
+  </data>
+  <data name="PlannerPage_ValidationTopicsNotAllocated" xml:space="preserve">
+    <value>The following topics have been allocated less than an hour each and so will not appear in your schedule. This problem occurs if the topic weights are too small relative to the number of hours in the plan.:{1}{1}{0}{1}You can try one of the following:{1}1.Increase their weights in the topics list or aggregate them with other topics.{1}2.Increase the total number of hours planned by adjusting the regular timetable or postponing the Review/Consolidate phase.</value>
+  </data>
+  <data name="PlannerPage_ValidationTopicsNotAllocatedItem" xml:space="preserve">
+    <value>{0} in {1} exam {2} phase{3}</value>
+  </data>
+  <data name="PlannerPage_AddExam" xml:space="preserve">
+    <value>Add a new exam</value>
+  </data>
+  <data name="PlannerPage_DeleteData" xml:space="preserve">
+    <value>Deleting data...this could take a few minutes</value>
+  </data>
+  <data name="PlannerPage_DeleteExam" xml:space="preserve">
+    <value>Deleting exam...this could take a few minutes</value>
+  </data>
+  <data name="PlannerPage_AddHobby" xml:space="preserve">
+    <value>Add a hobby</value>
+  </data>
+  <data name="PlannerPage_AddRestDay" xml:space="preserve">
+    <value>Add a rest day</value>
+  </data>
+  <data name="PlannerPage_RevertRestDay" xml:space="preserve">
+    <value>Revert to normal study day</value>
+  </data>
+  <data name="PlannerPage_AddRestDayMessage" xml:space="preserve">
+    <value>Are you sure you want to set this as a day off?</value>
+  </data>
+  <data name="PlannerPage_RemoveRestDayMessage" xml:space="preserve">
+    <value>Do you want to revert this day to a normal study day?</value>
+  </data>
+  <data name="PlannerPage_FinalPreparation" xml:space="preserve">
+    <value>Final Preparations</value>
+  </data>
+  <data name="PlannerPage_ExamDay" xml:space="preserve">
+    <value>Exam Day</value>
+  </data>
+  <data name="PlannerPage_NoExamPopupMessage" xml:space="preserve">
+    <value>Add an exam here to start</value>
+  </data>
+  <data name="PlannerPage_InLineExam" xml:space="preserve">
+    <value>this exam</value>
+  </data>
+  <data name="PlannerPage_GoToWebTopicsTitle" xml:space="preserve">
+    <value>Prefer typing on a desktop?</value>
+  </data>
+  <data name="PlannerPage_GoToWebTopicsMessage" xml:space="preserve">
+    <value>Go to {0} to enter and save your topics</value>
+  </data>
+  <data name="PlannerPage_GoToWebCopyAddress" xml:space="preserve">
+    <value> Copy address </value>
+  </data>
+  <data name="PlannerPage_GoToWebGoToWebPage" xml:space="preserve">
+    <value> Go to webpage </value>
+  </data>
+  <data name="PlannerPage_FirstExamPlannedMessage" xml:space="preserve">
+    <value>Congrats on planning your first exam! We hope you enjoy the {0} day free trial.{1}Do you want to go and add your tasks now?</value>
+  </data>
+  <data name="PlannerPage_FirstExamPlannedYesText" xml:space="preserve">
+    <value> Yes </value>
+  </data>
+  <data name="PlannerPage_FirstExamPlannedNoText" xml:space="preserve">
+    <value> No </value>
+  </data>
+  <data name="PlannerPage_FirstExamPlannedTitle" xml:space="preserve">
+    <value>First exam planned</value>
+  </data>
+  <data name="PlannerPage_NewExamTopicTitle" xml:space="preserve">
+    <value>For your first topic...</value>
+  </data>
+   <data name="PlannerPage_NewExamTopicMessage" xml:space="preserve">
+    <value>Do you want to go and add your tasks now?</value>
+  </data>
+  <data name="TopicsWizardPage_WizardTextOne" xml:space="preserve">
+    <value>I'm happy to tap it in</value>
+  </data>
+  <data name="TopicsWizardPage_WizardTextTwo" xml:space="preserve">
+    <value>Can I do this from a desktop?</value>
+  </data>
+  <data name="TopicsWizardPage_WizardTextThree" xml:space="preserve">
+    <value>I'm doing one of the standard professional exams</value>
+  </data>
+  <data name="TopicsWizardPage_WizardButtonOne" xml:space="preserve">
+    <value>   Continue   </value>
+  </data>
+  <data name="TopicsWizardPage_WizardButtonTwo" xml:space="preserve">
+    <value>   Show me how   </value>
+  </data>
+  <data name="TopicsWizardPage_WizardButtonThree" xml:space="preserve">
+    <value>   Import from a list of exams   </value>
+  </data>
+  <data name="CalendarPage_Title" xml:space="preserve">
+    <value>Calendar Cat</value>
+  </data>
+  <data name="CalendarPage_ThisWeek" xml:space="preserve">
+    <value>This week</value>
+  </data>
+  <data name="CalendarPage_LastWeek" xml:space="preserve">
+    <value>Last week</value>
+  </data>
+  <data name="CalendarPage_NextWeek" xml:space="preserve">
+    <value>Next week</value>
+  </data>
+  <data name="CalendarPage_OtherWeek" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="CalendarPage_DayOff" xml:space="preserve">
+    <value>Day Off</value>
+  </data>
+  <data name="CalendarPage_DayLost" xml:space="preserve">
+    <value>Day Lost</value>
+  </data>
+  <data name="CalendarPage_Monday" xml:space="preserve">
+    <value>mon</value>
+  </data>
+  <data name="CalendarPage_Tuesday" xml:space="preserve">
+    <value>tue</value>
+  </data>
+  <data name="CalendarPage_Wednesday" xml:space="preserve">
+    <value>wed</value>
+  </data>
+  <data name="CalendarPage_Thursday" xml:space="preserve">
+    <value>thu</value>
+  </data>
+  <data name="CalendarPage_Friday" xml:space="preserve">
+    <value>fri</value>
+  </data>
+  <data name="CalendarPage_Saturday" xml:space="preserve">
+    <value>sat</value>
+  </data>
+  <data name="CalendarPage_Sunday" xml:space="preserve">
+    <value>sun</value>
+  </data>
+  <data name="CalendarPage_ReorderExam" xml:space="preserve">
+    <value>Select exam to reorder topics:</value>
+  </data>
+  <data name="HistoryPage_Title" xml:space="preserve">
+    <value>History Horse</value>
+  </data>
+  <data name="HistoryPage_StudyHours" xml:space="preserve">
+    <value>Study Hours</value>
+  </data>
+  <data name="HistoryPage_StickinessScore" xml:space="preserve">
+    <value>Stickiness Score %</value>
+  </data>
+  <data name="HistoryPage_StickinessScoreShort" xml:space="preserve">
+    <value>Stickiness Score</value>
+  </data>
+  <data name="HistoryPage_HistoryTitle" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistoryPage_GoldStar" xml:space="preserve">
+    <value>Gold star for sticking to plan!</value>
+  </data>
+  <data name="HistoryPage_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="HistoryPage_HoursShort" xml:space="preserve">
+    <value>{0} hr</value>
+  </data>
+  <data name="HistoryPage_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="HistoryPage_DayNumber" xml:space="preserve">
+    <value>Day {0}</value>
+  </data>
+  <data name="HistoryPage_TMinusDays" xml:space="preserve">
+    <value>T-{0} days</value>
+  </data>
+  <data name="ProgressPage_Title" xml:space="preserve">
+    <value>Progress Panther</value>
+  </data>
+   <data name="ProgressPage_StepOneTitle" xml:space="preserve">
+    <value>Noticeboard</value>
+  </data>
+  <data name="ProgressPage_StepTwoTitle" xml:space="preserve">
+    <value>Top 3 actions</value>
+  </data>
+  <data name="ProgressPage_StepThreeTitle" xml:space="preserve">
+    <value>To-Dos</value>
+  </data>
+	 <data name="ProgressPage_OutstandingTasksSeoncdTitle" xml:space="preserve">
+    <value>To be completed outside of schedule</value>
+  </data>
+  <data name="ProgressPage_YesterdayTitle" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="ProgressPage_TodayTitle" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="ProgressPage_UncompletedTask" xml:space="preserve">
+    <value>What to do with the uncompleted tasks?</value>
+  </data>
+  <data name="ProgressPage_UncompletedTaskOptionOne" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="ProgressPage_UncompletedTaskOptionTwo" xml:space="preserve">
+    <value>Add to the outstanding list I’ll do them ASAP</value>
+  </data>
+  <data name="ProgressPage_UncompletedTaskOptionThree" xml:space="preserve">
+    <value>Reassign them to another day and recalculate schedule</value>
+  </data>
+  <data name="ProgressPage_PercentProgress" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ProgressPage_OutstandingTaskText" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="ProgressPage_EventUpdateText" xml:space="preserve">
+    <value>{0} | {1} | {2}</value>
+  </data>
+  <data name="ProgressPage_EventUpdateTextEdit" xml:space="preserve">
+    <value>{0} | {1}</value>
+  </data>
+  <data name="ProgressPage_SubmitProgress" xml:space="preserve">
+    <value> Submit </value>
+  </data>
+  <data name="ProgressPage_NoProgessToUpdate" xml:space="preserve">
+    <value>No outstanding tasks</value>
+  </data>
+  <data name="ProgressPage_DoneMoreTitle" xml:space="preserve">
+    <value>Done more than planned?</value>
+  </data>
+  <data name="ProgressPage_NextSevenDaysTitle" xml:space="preserve">
+    <value>Next seven days</value>
+  </data>
+  <data name="ProgressPage_BuddiesTitle" xml:space="preserve">
+    <value>Message to your buddies...</value>
+  </data>
+  <data name="ProgressPage_BuddiesMesssage" xml:space="preserve">
+    <value>Your buddies will receive a notification about your progress today when you press send and it will contain this message.</value>
+  </data>
+  <data name="ProgressPage_BuddiesOk" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ProgressPage_BuddiesCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ProgressPage_BuddiesMessageTooLong" xml:space="preserve">
+    <value>The message cannot be longer than 50 characters.</value>
+  </data>
+  <data name="ProgressPage_NoticeboardBullet" xml:space="preserve">
+    <value>• </value>
+  </data>
+  <data name="ProgressPage_NoticeboardTextOne" xml:space="preserve">
+    <value>{0}h completed this week vs. {1}h last week. </value>
+  </data>
+  <data name="ProgressPage_NoticeboardTextTwo" xml:space="preserve">
+    <value>{0}h of study remaining in {1}. </value>
+  </data>
+  <data name="ProgressPage_NoticeboardTextThree" xml:space="preserve">
+    <value>Due to start {0} {1} {2}. </value>
+  </data>
+  <data name="ProgressPage_NoticeboardTextFour" xml:space="preserve">
+    <value>Don't forget to set your tasks for {0}</value>
+  </data>
+  <data name="ProgressPage_DueToday" xml:space="preserve">
+    <value>Due Today</value>
+  </data>
+  <data name="ProgressPage_DueTomorrow" xml:space="preserve">
+    <value>Due Next</value>
+  </data>
+  <data name="ProgressPage_DoneMoreThanPlannedPopupMessage" xml:space="preserve">
+    <value>Woah, you have done more than planned!{0}{0}Would you like to bring your plan forward or free up the time?</value>
+  </data>
+  <data name="ProgressPage_DoneMoreThanPlannedBringForward" xml:space="preserve">
+    <value> Bring forward </value>
+  </data>
+  <data name="ProgressPage_DoneMoreThanPlannedFreeUpTime" xml:space="preserve">
+    <value> Free up time </value>
+  </data> 
+  <data name="ProgressPage_MarkAsCompleteMessage" xml:space="preserve">
+    <value>Are you sure you want to mark these {0} as complete?</value>
+  </data>
+  <data name="ProgressPage_MarkAsCompleteMessageItems" xml:space="preserve">
+    <value>{0} item(s)</value>
+  </data>
+  <data name="ProgressPage_MarkAsCompleteYes" xml:space="preserve">
+    <value> Yes </value>
+  </data>
+  <data name="ProgressPage_MarkAsCompleteNo" xml:space="preserve">
+    <value> No </value>
+  </data>
+  <data name="ProgressPage_BearToken" xml:space="preserve">
+    <value>Bear token collected</value>
+  </data>
+  <data name="ProgressPage_ReschedulePopupMessage" xml:space="preserve">
+    <value>Are you sure you want to reschedule {0}?</value>
+  </data>
+  <data name="ProgressPage_ReschedulePopupTip" xml:space="preserve">
+    <value>TIP: A bit bored of this topic? Don't forget you can use the reorder feature in Calendar Cat once you have rescheduled if you want to move on to another topic and come back to this one later.</value>
+  </data>
+  <data name="ProgressPage_ReschedulingItems" xml:space="preserve">
+    <value>Rescheduling your tasks</value>
+  </data>
+  <data name="ProgressPage_HoursStudied" xml:space="preserve">
+    <value>Hours studied</value>
+  </data>
+  <data name="ProgressPage_CompletedStudiesForExamMessage" xml:space="preserve">
+    <value>Excellent!{0}You have completed your studies{0}for this exam for today!{0}  </value>
+  </data>
+  <data name="ProgressPage_CompletedStudiesForExamMessage_ClosetoBadge" xml:space="preserve">
+    <value>You have completed your studies{0}for this exam for today!{0}Did you know?{0}Only {1} more study days till your next badge...</value>
+  </data>
+  <data name="ProgressPage_CompletedStudiesForExamMessage_BadgeWon" xml:space="preserve">
+    <value>Newsflash!{0}You have completed your studies{0}for this exam for today which means...{0}you've just earned a new badge in Bar Chart Bear!!</value>
+  </data>
+  <data name="ProgressPage_HoursStudyToGoMessage" xml:space="preserve">
+    <value>Excellent!{0}you have {1} more hours of study{0}to go today for this exam.</value>
+  </data>
+  <data name="ProgressPage_HoursStartAgainTomorrowTitle" xml:space="preserve">
+    <value>Rescheduled</value>
+  </data>
+  <data name="ProgressPage_HoursStartAgainTomorrowMessage1" xml:space="preserve">
+    <value>You now have on average {1}h less{0}available for each topic due to rescheduling.</value>
+  </data>
+  <data name="ProgressPage_HoursStartAgainTomorrowMessage2" xml:space="preserve">
+    <value>Your outstanding tasks have now been pushed forward.{0}We start again soon!</value>
+  </data>
+  <data name="ProgressPage_InfoPopupTitle" xml:space="preserve">
+    <value>Your to-do list awaits!</value>
+  </data>
+  <data name="ProgressPage_InfoPopupMessage" xml:space="preserve">
+    <value>This is where you view your daily to-dos and log your studies each day. Slide to flick through your exams if you have more than one.</value>
+  </data>
+  <data name="ProgressPage_FirstBearTokenCollectedMessagePartOne" xml:space="preserve">
+    <value>Congratulations!{0}You've just earned your first Bear Token</value>
+  </data>  
+  <data name="ProgressPage_FirstBearTokenCollectedMessagePartTwo" xml:space="preserve">
+    <value>and it IS a big deal ;o)</value>
+  </data> 
+  <data name="ProgressPage_BearTokenCollectedMessagePartOne" xml:space="preserve">
+    <value>Excellent, all done for today!{0}Another Bear Token for the bank</value>
+  </data>  
+  <data name="ProgressPage_BearTokenCollectedMessagePartTwo" xml:space="preserve">
+    <value>Kerching~</value>
+  </data> 
+  <data name="ProgressPage_BearTokenCollectedButtonText" xml:space="preserve">
+    <value> View in History </value>
+  </data> 
+  <data name="ExamPage_Title" xml:space="preserve">
+    <value>Schedule an exam</value>
+  </data>
+  <data name="ExamPage_StepOneTitle" xml:space="preserve">
+    <value>Step 1: Define study period</value>
+  </data>
+  <data name="ExamPage_EntryPlaceHolder" xml:space="preserve">
+    <value>Enter exam name</value>
+  </data>
+  <data name="ExamPage_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="ExamPage_ExamDate" xml:space="preserve">
+    <value>My exam is on</value>
+  </data>
+  <data name="ExamPage_StudyStartDate" xml:space="preserve">
+    <value>I start studying on</value>
+  </data>
+  <data name="ExamPage_RegroupPartOne" xml:space="preserve">
+    <value>I want to be ready</value>
+  </data>
+  <data name="ExamPage_RegroupPartTwo" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="ExamPage_RegroupPartThree" xml:space="preserve">
+    <value>before the exam so that I have time to regroup</value>
+  </data>
+  <data name="ExamPage_DeleteExam" xml:space="preserve">
+    <value> Delete Exam </value>
+  </data>
+  <data name="ExamPage_DeleteExamConfirmationYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ExamPage_DeleteExamConfirmationNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ExamPage_DeleteExamConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete this exam?</value>
+  </data>
+  <data name="ExamPage_StepTwoTitle" xml:space="preserve">
+    <value>Step 2: Commit to a timetable</value>
+  </data>
+  <data name="ExamPage_WeeklyTimeTable" xml:space="preserve">
+    <value>My weekly study timetable</value>
+  </data>
+  <data name="ExamPage_TimeTableExceptions" xml:space="preserve">
+    <value>Any timetable exceptions</value>
+  </data>
+  <data name="ExamPage_StepThreeTitle" xml:space="preserve">
+    <value>Step 3: Break it down</value>
+  </data>
+  <data name="ExamPage_TopicsAndTasksSection" xml:space="preserve">
+    <value>My exam topics and tasks</value>
+  </data>
+  <data name="TimetableRegularPage_Title" xml:space="preserve">
+    <value>My weekly study timetable</value>
+  </data>
+  <data name="TimetableRegularPage_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="TimetableRegularPage_SubTitle" xml:space="preserve">
+    <value>How many hours a day will you study for {0}?</value>
+  </data>
+  <data name="TimetableRegularPage_TotalWeekly" xml:space="preserve">
+    <value>Total Weekly:</value>
+  </data>
+  <data name="TimetableExceptionPage_Title" xml:space="preserve">
+    <value>Timetable Exceptions</value>
+  </data>
+  <data name="TimetableExceptionPage_SubTitle" xml:space="preserve">
+    <value>Use this page to enter any dates when you want to dedicate more or less time to this exam than is scheduled in your regular timetable.</value>
+  </data>
+  <data name="TimetableExceptionPage_FromHeader" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="TimetableExceptionPage_ToHeader" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="TimetableExceptionPage_HoursHeader" xml:space="preserve">
+    <value>Hrs</value>
+  </data>
+  <data name="TimetableExceptionPage_AddMoreDates" xml:space="preserve">
+    <value>Add more dates</value>
+  </data>
+  <data name="TimetableExceptionPage_StudyPlanningTipTitle" xml:space="preserve">
+    <value>Study planning tip:</value>
+  </data>
+  <data name="TimetableExceptionPage_StudyPlanningTipSectionOne" xml:space="preserve">
+    <value>Why not schedule more hours for this exam near the exam date?</value>
+  </data>
+  <data name="TimetableExceptionPage_StudyPlanningTipSectionTwo" xml:space="preserve">
+    <value>Or take a break from this one while there are other exams going on?</value>
+  </data>
+  <data name="TimetableExceptionPage_DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this entry?</value>
+  </data>
+  <data name="TimetableExceptionPage_DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this entry?</value>
+  </data>
+  <data name="TimetableExceptionPage_DeleteConfirmYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ChartPage_Title" xml:space="preserve">
+    <value>Bar Chart Bear</value>
+  </data>
+  <data name="ChartPage_OveralProgressTitle" xml:space="preserve">
+    <value>Overall progress</value>
+  </data>
+  <data name="ChartPage_StudyLegend" xml:space="preserve">
+    <value>Study</value>
+  </data>
+  <data name="ChartPage_RevisionLegend" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="ChartPage_ByTopicOrTaskTitle" xml:space="preserve">
+    <value>By Topic or Task</value>
+  </data>
+  <data name="ChartPage_NoExamSet" xml:space="preserve">
+    <value>(Not Set)</value>
+  </data>
+  <data name="ChartPage_WeeklyProgressUpdate" xml:space="preserve">
+    <value>Weekly Progress Update</value>
+  </data>
+  <data name="ChartPage_BecomeANovice" xml:space="preserve">
+    <value>Become a Novice!</value>
+  </data>
+  <data name="ChartPage_BecomeBearTokenTextOne" xml:space="preserve">
+    <value>People who stick to their plans frequently achieve higher studier status.</value>
+  </data>
+  <data name="ChartPage_BecomeBearTokenTextTwo" xml:space="preserve">
+    <value>Every day you clear your to-do list you will be awarded with a bear token.</value>
+  </data>
+  <data name="ChartPage_BecomeBearTokenTextThree" xml:space="preserve">
+    <value>Collect 10 bear tokens to earn your next status badge. Each badge entitles you to more interesting bar chart graphic and new statistics about your progress.</value>
+  </data>
+  <data name="ChartPage_BecomeBearTokenTextFour" xml:space="preserve">
+    <value>Get the BONUS Novice status badge by rating Planner Pig app...</value>
+  </data>
+  <data name="ChartPage_GoToAppStore" xml:space="preserve">
+    <value> Shortcut to rate </value>
+  </data>
+  <data name="ChartPage_ExamAsAt" xml:space="preserve">
+    <value>{0} as at {1}</value>
+  </data>
+  <data name="ChartPage_LevelOneText" xml:space="preserve">
+    <value>You are {0}% of the way through your studies!</value>
+  </data>
+  <data name="ChartPage_LevelTwoText" xml:space="preserve">
+    <value>In {0} you've charged {1}% of your battery</value>
+  </data>
+  <data name="ChartPage_LevelThreeText" xml:space="preserve">
+    <value>You've reached the {0} floor in {1}!</value>
+  </data>
+  <data name="ChartPage_LevelThreeTextSecond" xml:space="preserve">
+    <value>You climbed {0} floors last week.</value>
+  </data>
+  <data name="ChartPage_LevelFourText" xml:space="preserve">
+    <value>You've reached an altitude of {0}m on Mount Everest!</value>
+  </data>
+  <data name="ChartPage_LevelFourTextSecond" xml:space="preserve">
+    <value>You climbed {0}m last week at a rate of {1}m/h</value>
+  </data>
+  <data name="ChartPage_LevelFiveText" xml:space="preserve">
+    <value>You're only {0}km away from the moon!</value>
+  </data>
+  <data name="ChartPage_LevelFiveTextSecond" xml:space="preserve">
+    <value>You travelled {0}km last week at a rate of {1}km/h.</value>
+  </data>
+  <data name="ChartPage_LevelFiveTextThird" xml:space="preserve">
+    <value>At this rate you're due to reach the destination in {0} hours.</value>
+  </data>
+  <data name="ChartPage_ShareText" xml:space="preserve">
+    <value>From my Planner Pig app</value>
+  </data>
+  <data name="ChartPage_LevelUpgrade" xml:space="preserve">
+    <value>Level Upgrade to {0}</value>
+  </data>
+  <data name="ChartPage_YouAre" xml:space="preserve">
+    <value>You are</value>
+  </data>
+  <data name="ChartPage_DaysAway" xml:space="preserve">
+    <value>study days away from from earning the next badge.</value>
+  </data>
+  <data name="ChartPage_KeepGoing" xml:space="preserve">
+    <value>Keep going to receive another upgrade to the progress bar chart!</value>
+  </data>
+  <data name="ChartPage_IntroTitle" xml:space="preserve">
+    <value>Come back another day!</value>
+  </data>
+  <data name="ChartPage_Intro" xml:space="preserve">
+    <value>Your progress chart will update every Sunday once you have earned your Novice badge.</value>
+  </data>
+  <data name="Notifications_Title" xml:space="preserve">
+    <value>Planner Pig update</value>
+  </data>
+  <data name="Notifications_UpdateProgress" xml:space="preserve">
+    <value>{0} days to go, don't forget to update for today's progress</value>
+  </data>
+  <data name="Notifications_UpdateProgressTitle" xml:space="preserve">
+    <value>Study tip of the day</value>
+  </data>
+  <data name="Notifications_UpdateProgressText" xml:space="preserve">
+    <value>Don't forget to update for today's progress</value>
+  </data>
+  <data name="TopicPage_Title" xml:space="preserve">
+    <value>Exam Topics</value>
+  </data>
+  <data name="TopicPage_TopSection" xml:space="preserve">
+    <value>Enter your exam topics here and allocate your available hours as required.</value>
+  </data>
+  <data name="TopicPage_TopSection2" xml:space="preserve">
+    <value>Prefer entering from a desktop? Go to www.plannerpig.com/topics to enter your list there.</value>
+  </data>
+  <data name="TopicPage_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="TopicPage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TopicPage_DeleteConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete topic {0}?</value>
+  </data>
+  <data name="TopicPage_ZeroHourConfirmation" xml:space="preserve">
+    <value>Are you sure you want to zero all hours?</value>
+  </data>
+  <data name="TopicPage_ZeroHourTitle" xml:space="preserve">
+    <value>Clear Hours</value>
+  </data>
+  <data name="TopicPage_RedistribConfirmation" xml:space="preserve">
+    <value>Are you sure you want to redistribute available hours evenly?</value>
+  </data>
+  <data name="TopicPage_RedistribTitle" xml:space="preserve">
+    <value>Redistribute</value>
+  </data>
+  <data name="TopicPage_ImportOptionTitle" xml:space="preserve">
+    <value>Import topics from...</value>
+  </data>
+  <data name="TopicPage_ImportTitle" xml:space="preserve">
+    <value>Import from list</value>
+  </data>
+  <data name="TopicPage_Revision" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="TopicPage_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="TopicPage_ImportFavorites" xml:space="preserve">
+    <value>Saved lists</value>
+  </data>
+   <data name="TopicPage_ImportTemplates" xml:space="preserve">
+    <value>Standard exam templates</value>
+  </data>
+  <data name="TopicPage_ImportItem" xml:space="preserve">
+    <value>Import {0} topics</value>
+  </data>
+  <data name="TopicPage_CopyItem" xml:space="preserve">
+    <value>Copy topics from {0} phase</value>
+  </data>
+  <data name="TopicPage_CopyMessage" xml:space="preserve">
+    <value>Are you sure you want to copy all topics from the {0} phase?</value>
+  </data>
+  <data name="TopicPage_ImportMessage" xml:space="preserve">
+    <value>Are you sure you want to import all topics from the {0} template?</value>
+  </data>
+  <data name="TopicPage_AddNew" xml:space="preserve">
+    <value>(Add New)</value>
+  </data>
+  <data name="TopicPage_EditItem" xml:space="preserve">
+    <value>Edit Topic</value>
+  </data>
+  <data name="TopicPage_EnterName" xml:space="preserve">
+    <value>Topic name{0}(30 characters max)</value>
+  </data>
+  <data name="TopicPage_EnterWeight" xml:space="preserve">
+    <value>Topic weight{0}</value>
+  </data>
+  <data name="TopicPage_EnterPages" xml:space="preserve">
+    <value>Would you like to use number of pages as a measure of progress for this topic? If so, enter the total number of pages associated with the weight you’ve just entered:</value>
+  </data>
+  <data name="TopicPage_EnterPagesOk" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="TopicPage_EnterPagesCancel" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="TopicPage_TopicWeight" xml:space="preserve">
+    <value>Weight : {0}</value>
+  </data>
+  <data name="TopicPage_Pages" xml:space="preserve">
+    <value>(Pages {0})</value>
+  </data>
+  <data name="TopicPage_EmptyName" xml:space="preserve">
+    <value>Please enter a value for name</value>
+  </data>
+  <data name="TopicPage_EmptyWeight" xml:space="preserve">
+    <value>Please enter a value for weight</value>
+  </data>
+  <data name="TopicPage_NameNotLongerThan20Characters" xml:space="preserve">
+    <value>The topic name cannot be longer than 30 characters</value>
+  </data>
+  <data name="TopicPage_WeightGreaterThan0" xml:space="preserve">
+    <value>The topic weight needs to be a value greater than 0</value>
+  </data>
+  <data name="TopicPage_LessThanOneTopicTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="TopicPage_LessThanOneTopicMessage" xml:space="preserve">
+    <value>You need at least one topic</value>
+  </data>
+  <data name="TopicPage_MoreThanThirtyTopicTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="TopicPage_MoreThanThirtyTopicMessage" xml:space="preserve">
+    <value>You cannot have more than thirty topics per phase</value>
+  </data>
+  <data name="TopicPage_NameAlreadyExists" xml:space="preserve">
+    <value>Topic name {0} already exists</value>
+  </data>
+  <data name="TopicPage_StudyPlanningTipTitle" xml:space="preserve">
+    <value>Study planning tip:</value>
+  </data>
+  <data name="TopicPage_StudyPlanningTipSectionOne" xml:space="preserve">
+    <value>You can further break down the topics into discrete tasks (e.g. Read chapter, Do Q/A) in Task List Maker.</value>
+  </data>
+  <data name="TopicPage_StudyPlanningTipSectionTwo" xml:space="preserve">
+    <value>You can change the ordering of these at any time from Weekly Calendar.</value>
+  </data>
+  <data name="TopicPage_StudyPlanningTipSectionThree" xml:space="preserve">
+    <value>If you need more or less hours you can adjust your regular timetable or study period.</value>
+  </data>
+  <data name="TopicPage_TotalAvailable" xml:space="preserve">
+    <value>Total Available:</value>
+  </data>
+  <data name="TopicPage_TotalScheduled" xml:space="preserve">
+    <value>Total Scheduled:</value>
+  </data>
+  <data name="TopicPage_Unallocated" xml:space="preserve">
+    <value>Unallocated</value>
+  </data>
+  <data name="TopicService_NewStudyChapter5" xml:space="preserve">
+    <value>[Edit topic 5]</value>
+  </data>
+  <data name="TopicService_NewStudyChapter4" xml:space="preserve">
+    <value>[Edit topic 4]</value>
+  </data>
+  <data name="TopicService_NewStudyChapter3" xml:space="preserve">
+    <value>[Edit topic 3]</value>
+  </data>
+  <data name="TopicService_NewStudyChapter2" xml:space="preserve">
+    <value>[Edit topic 2]</value>
+  </data>
+  <data name="TopicService_NewStudyChapter1" xml:space="preserve">
+    <value>[Edit topic 1]</value>
+  </data>
+  <data name="TopicService_NewRevisionChapters" xml:space="preserve">
+    <value>Topic {0}</value>
+  </data>
+  <data name="ExamService_ValidateExamWithSameNameExists" xml:space="preserve">
+    <value>Exam name {0} already exists</value>
+  </data>
+  <data name="ExamService_ValidateExamNameCannotBeEmpty" xml:space="preserve">
+    <value>Exam name cannot be blank</value>
+  </data>
+  <data name="UserPage_Title" xml:space="preserve">
+    <value>Hi,  Welcome!</value>
+  </data>
+  <data name="UserPage_SubTitleOne" xml:space="preserve">
+    <value>Please enter{0}the following{0}information{0}to get started...</value>
+  </data>
+  <data name="UserPage_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="UserPage_ProfessionalQualification" xml:space="preserve">
+    <value>Which professional{0}qualification{0}are you aiming for?</value>
+  </data>
+  <data name="UserPage_NextButton" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UserPage_EmailValidationInvalid" xml:space="preserve">
+    <value>Please enter a valid email</value>
+  </data>
+  <data name="UserPage_EmailValidationEmpty" xml:space="preserve">
+    <value>Please enter an email address</value>
+  </data>
+  <data name="UserPage_ProfessionalValidationValidationEmpty" xml:space="preserve">
+    <value>Please enter a professional qualification</value>
+  </data>
+  <data name="UserPage_NoteAtBottom" xml:space="preserve">
+    <value>We will never share your details with anyone else. We may send you emails about new Planner Pig features relevant to your professional studies which you can opt out at any time</value>
+  </data>
+  <data name="HelpPage_Title" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HelpPage_SubtitleOne" xml:space="preserve">
+    <value>Tap on any icon below to find out about what you can do in each page.</value>
+  </data>
+  <data name="HelpPage_PlanningFirstTime" xml:space="preserve">
+    <value>Planning an exam for the first time</value>
+  </data>
+  <data name="HelpPage_ViewPlan" xml:space="preserve">
+    <value>Viewing your plan</value>
+  </data>
+  <data name="HelpPage_OngoingStudyPlanning" xml:space="preserve">
+    <value>Ongoing study planning</value>
+  </data>
+  <data name="HelpPage_UpdatingPlan" xml:space="preserve">
+    <value>Updating your plan</value>
+  </data>
+  <data name="HelpPage_MonitoringProgress" xml:space="preserve">
+    <value>Monitoring your progress</value>
+  </data>
+  <data name="HelpPage_Faq" xml:space="preserve">
+    <value>Latest FAQ: www.plannerpig.com/FAQ</value>
+  </data>
+  <data name="GetInTouchPage_Title" xml:space="preserve">
+    <value>Get in touch</value>
+  </data>
+  <data name="GetInTouchPage_Like" xml:space="preserve">
+    <value>Like Planner Pig?</value>
+  </data>
+  <data name="GetInTouchPage_Rate" xml:space="preserve">
+    <value>Rate!</value>
+  </data>
+  <data name="GetInTouchPage_SocialFeatures" xml:space="preserve">
+    <value>We always welcome your ideas for improvement. Let us know if there are any other stats you'd like to see to help track your studies.</value>
+  </data>
+  <data name="GetInTouchPage_Problems" xml:space="preserve">
+    <value>Problems? Give us a chance to sort it out for you</value>
+  </data>
+  <data name="GetInTouchPage_Feedback" xml:space="preserve">
+    <value>Do get in touch with any feedback, requests or questions...</value>
+  </data>
+  <data name="GetInTouchPage_Send" xml:space="preserve">
+    <value> Send </value>
+  </data>
+  <data name="GetInTouchPage_OurWebsite" xml:space="preserve">
+    <value>Our website:</value>
+  </data>
+  <data name="GetInTouchPage_Url" xml:space="preserve">
+    <value>www.plannerpig.com</value>
+  </data>
+  <data name="AccountPage_Title" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="AccountPage_YourMessage" xml:space="preserve">
+    <value>Your message (max. 50 characters)</value>
+  </data>
+  <data name="AccountPage_StandardMessage" xml:space="preserve">
+    <value>Come on, study with me!</value>
+  </data>
+  <data name="AccountPage_YourMessageSubTitle" xml:space="preserve">
+    <value>This is the message that your buddies will see on the notification popup when they receive your progress update on Social Squirrel</value>
+  </data>
+  <data name="AccountPage_Saved" xml:space="preserve">
+    <value>Account Saved</value>
+  </data>
+  <data name="AccountPage_ProfileSaving" xml:space="preserve">
+    <value>Saving your profile</value>
+  </data>
+  <data name="AccountPage_ProfileSaved" xml:space="preserve">
+    <value>Profile saved</value>
+  </data>
+  <data name="AccountPage_SyncInProgressTitle" xml:space="preserve">
+    <value>Saving Data</value>
+  </data>
+  <data name="AccountPage_SyncInProgressMessage" xml:space="preserve">
+    <value>Your data is still being saved please wait a moment and try again</value>
+  </data>
+  <data name="AccountPage_LoggingOff" xml:space="preserve">
+    <value>Logging off</value>
+  </data>
+  <data name="AccountPage_LoggedInWith" xml:space="preserve">
+    <value>Logged in with your {0} account {1} (your email address is not visible to other users)</value>
+  </data>
+  <data name="AccountPage_Save" xml:space="preserve">
+    <value> Save </value>
+  </data>
+  <data name="AccountPage_SignOut" xml:space="preserve">
+    <value> Sign Out </value>
+  </data>
+  <data name="AccountPage_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data> 
+  <data name="AccountPage_CurrentPassword" xml:space="preserve">
+    <value>Please enter your current password</value>
+  </data>
+  <data name="AccountPage_NewPassword" xml:space="preserve">
+    <value>Please enter your new password</value>
+  </data>
+  <data name="AccountPage_ChangePasswordIncorrect" xml:space="preserve">
+    <value>Your current password is incorrect</value>
+  </data>
+  <data name="AccountPage_ChangePasswordSuccess" xml:space="preserve">
+    <value>Your password has been changed</value>
+  </data>
+  <data name="SocialPage_Title" xml:space="preserve">
+    <value>Social Squirrel</value>
+  </data>
+  <data name="SocialPage_My" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="SocialPage_ActivityTitle" xml:space="preserve">
+    <value>{0} Activity Log</value>
+  </data>
+  <data name="SocialPage_OverallProgressTitle" xml:space="preserve">
+    <value>{0} Overall Progress</value>
+  </data>
+  <data name="SocialPage_HoursPlanned" xml:space="preserve">
+    <value>Planned {0} hours</value>
+  </data>
+  <data name="SocialPage_HoursComplete" xml:space="preserve">
+    <value>Completed {0} hours</value>
+  </data>
+  <data name="SocialPage_LastSeen" xml:space="preserve">
+    <value>LastSeen on {0}</value>
+  </data>
+  <data name="SocialPage_StickinessScore" xml:space="preserve">
+    <value>Stickiness score {0}%</value>
+  </data>
+  <data name="SocialPage_Today" xml:space="preserve">
+    <value>Today:</value>
+  </data>
+  <data name="SocialPage_Yesterday" xml:space="preserve">
+    <value>Yesterday:</value>
+  </data>
+  <data name="SocialPage_NoActvity" xml:space="preserve">
+    <value>No Activity</value>
+  </data>
+  <data name="SocialPage_Rescheduled" xml:space="preserve">
+    <value>Rescheduled {0} {1} %</value>
+  </data>
+  <data name="SocialPage_Completed" xml:space="preserve">
+    <value>Completed {0} {1} {2}%</value>
+  </data>
+  <data name="SocialPage_AddToOutstanding" xml:space="preserve">
+    <value>Add to Outstanding {0} {1} {2}%</value>
+  </data>
+  <data name="SocialPage_NothingToView" xml:space="preserve">
+    <value>Oops! There is nothing to view here...</value>
+  </data>
+  <data name="SocialPage_FindAStudyBuddy" xml:space="preserve">
+    <value>Go to Invite &amp; Share page to find a study buddy to share your progress and achievements with. (Swipe left to see an example)</value>
+  </data>
+  <data name="SocialPage_BuddyRequestOutstanding" xml:space="preserve">
+    <value>{0} has sent a Buddy Request.{1}Accept now to start sharing each other's activity log and progress chart</value>
+  </data>
+  <data name="SocialPage_BuddyRequestAccept" xml:space="preserve">
+    <value> Accept </value>
+  </data>
+  <data name="SocialPage_BuddyRequestDecline" xml:space="preserve">
+    <value> Decline </value>
+  </data>
+  <data name="SocialPage_LocationPrivate" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="SocialPage_Refreshing" xml:space="preserve">
+    <value>Refreshing</value>
+  </data>
+  <data name="SocialPage_StudiersTitle" xml:space="preserve">
+    <value>Studiers of the day</value>
+  </data>
+  <data name="SocialPage_StudiersSubTitle" xml:space="preserve">
+    <value>These studiers are waiting for your buddy request. By buddying up with them you can view each other's Social Squirrel page. If you change your mind unfriending at any time is quick and easy.</value>
+  </data>
+  <data name="SocialPage_Unfriend" xml:space="preserve">
+    <value>Unfriend</value>
+  </data>
+  <data name="SocialPage_UnfriendTitle" xml:space="preserve">
+    <value>Unfriend</value>
+  </data>
+  <data name="SocialPage_UnfriendMessage" xml:space="preserve">
+    <value>Are you sure you want to unfriend {0}?</value>
+  </data>
+  <data name="SocialPage_UnfriendYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SocialPage_UnfriendNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SocialPage_Deleting" xml:space="preserve">
+    <value>Unfriending</value>
+  </data>
+  <data name="SocialPage_InviteTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SocialPage_InviteMessage" xml:space="preserve">
+    <value>Send a buddy request to {0}?</value>
+  </data>
+  <data name="SocialPage_InviteMessageYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SocialPage_InviteMessageNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SocialPage_ThisWeekSoFar" xml:space="preserve">
+    <value>This week so far</value>
+  </data>
+  <data name="SocialPage_SearchProfile" xml:space="preserve">
+    <value>Buddy Invite &amp; Search</value>
+  </data>
+  <data name="SocialPage_MyLog" xml:space="preserve">
+    <value>My Public Study Log</value>
+  </data>
+  <data name="SocialPage_ClimbToSuccess" xml:space="preserve">
+    <value>{0}'s climb to success</value>
+  </data>
+  <data name="SocialPage_Location" xml:space="preserve">
+    <value>Location: {0}, {1}</value>
+  </data>
+  <data name="SocialPage_Status" xml:space="preserve">
+    <value>Status: {0}</value>
+  </data>
+  <data name="SocialPage_HoursToGo" xml:space="preserve">
+    <value>{0} hours of study to go</value>
+  </data>
+  <data name="SocialPage_RetrievingFriends" xml:space="preserve">
+    <value>Looking for friends</value>
+  </data>
+  <data name="SocialPage_RetrievingBuddyInfo" xml:space="preserve">
+    <value>Fetching your friends data</value>
+  </data>
+  <data name="SignUpPage_PrivacyPolicyNote" xml:space="preserve">
+    <value>By clicking on sign up,{0}you agree to Planner Pig's</value>
+  </data>
+  <data name="SignUpPage_PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="SignUpPage_AlreadyRegistered" xml:space="preserve">
+    <value>Already Registered?</value>
+  </data>
+  <data name="SignUpPage_SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="SignUpPage_LogIn" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="SignUpPage_SigningUp" xml:space="preserve">
+    <value>Signing Up</value>
+  </data>
+  <data name="SignUpPage_AccountAlreadySetup" xml:space="preserve">
+    <value>You already have an account setup with this login.{0}Do you want to login now?</value>
+  </data>
+  <data name="SignUpPage_AccountAlreadySetupTitle" xml:space="preserve">
+    <value>Account exists</value>
+  </data>
+  <data name="SignUpPage_ErrorOccurred" xml:space="preserve">
+    <value>An error occurred. Please try again later.</value>
+  </data>
+  <data name="SignUpPage_NoInternetConnection" xml:space="preserve">
+    <value>No Internet connection</value>
+  </data>
+  <data name="SignUpPage_RegularAccountExists" xml:space="preserve">
+    <value>Account exists and is not a Google/Facebook account.</value>
+  </data>
+   <data name="SignUpPage_PlannerPigAccountSignUp" xml:space="preserve">
+    <value>Sign up for a</value>
+  </data>
+  <data name="SignUpPage_PlannerPigAccount" xml:space="preserve">
+    <value>Planner Pig Account</value>
+  </data>
+  <data name="SignInPage_WelcomeBack" xml:space="preserve">
+    <value> Welcome Back!</value>
+  </data>
+   <data name="SignInPage_SignIn" xml:space="preserve">
+    <value> Sign In </value>
+  </data>
+  <data name="SignInPage_Or" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="SignInPage_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>  
+  <data name="SignInPage_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SignInPage_SigningIn" xml:space="preserve">
+    <value>Signing In</value>
+  </data>
+  <data name="SignInPage_SynchronisingData" xml:space="preserve">
+    <value>Synchronising Data</value>
+  </data>
+  <data name="SignInPage_NoInternetConnection" xml:space="preserve">
+    <value>No Internet connection</value>
+  </data>
+  <data name="SignInPage_AccountNotSetup" xml:space="preserve">
+    <value>You have not setup an account yet with this login.{0}Do you want to continue setting up a new profile?</value>
+  </data>
+  <data name="SignInPage_AccountNotSetupTitle" xml:space="preserve">
+    <value>No Account</value>
+  </data>
+  <data name="SignInPage_AccountNotSetupYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SignInPage_AccountNotSetupNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SignInPage_ForgotPassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="SignInPage_NotRegistered" xml:space="preserve">
+    <value>Not Registered yet?</value>
+  </data>
+  <data name="SignInPage_SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="SignInPage_ForgotPasswordTitle" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="SignInPage_ForgotPasswordMessage" xml:space="preserve">
+    <value>Please enter your email address to request a password reset.</value>
+  </data>
+  <data name="SignInPage_ForgotPasswordOk" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="SignInPage_ForgotPasswordCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+   <data name="SignInPage_Requesting" xml:space="preserve">
+    <value>Requesting</value>
+  </data>
+  <data name="SignInPage_EmailNotValidMessage" xml:space="preserve">
+    <value>Please enter a valid email address.</value>
+  </data>
+  <data name="SignInPage_EmailSent" xml:space="preserve">
+    <value>You will receive an email shortly with your new password.</value>
+  </data>
+  <data name="AccountSignUpPage_Title" xml:space="preserve">
+    <value>Create a Planner Pig account{0}- in just 2 quick steps</value>
+  </data>
+  <data name="AccountSignUpPage_SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="AccountSignUpPage_SignUpButton" xml:space="preserve">
+    <value> Sign Up </value>
+  </data>
+  <data name="AccountSignUpPage_ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="AccountSignUpPage_EmailAlreadyTaken" xml:space="preserve">
+    <value>The email {0} is already taken.</value>
+  </data>
+  <data name="AccountSignUpPage_PasswordSixCharacters" xml:space="preserve">
+    <value>The password must be at least 6 characters long.</value>
+  </data>
+   <data name="AccountSignUpPage_PasswordMatch" xml:space="preserve">
+    <value>The password and the confirm password do not match.</value>
+  </data>
+  <data name="ProfilePage_ProfileName" xml:space="preserve">
+    <value>Profile Name</value>
+  </data>
+  <data name="ProfilePage_ProfileImage" xml:space="preserve">
+    <value>Profile Image</value>
+  </data>
+  <data name="ProfilePage_ProfileImageSubTitle" xml:space="preserve">
+    <value>Upload a picture if you don't want to be this bookworm bear like everybody else!</value>
+  </data>
+  <data name="ProfilePage_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ProfilePage_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="ProfilePage_LocationPrivate" xml:space="preserve">
+    <value>Keep my location private</value>
+  </data>
+  <data name="ProfilePage_CompletingRegistration" xml:space="preserve">
+    <value>Completing registration</value>
+  </data>
+  <data name="ProfilePage_Title" xml:space="preserve">
+    <value>Profile Setup</value>
+  </data>
+  <data name="ProfilePage_SubTitle" xml:space="preserve">
+    <value>We have attempted to set up your profile for you. If you don't like it you can change it now or later!</value>
+  </data>
+  <data name="ProfilePage_SubTitleThree" xml:space="preserve">
+    <value>Your basic profile as shown above will be visible to others within the Planner Pig community.</value>
+  </data>
+  <data name="ProfilePage_CompleteRegistration" xml:space="preserve">
+    <value> Complete Registration </value>
+  </data>
+  <data name="ProfilePage_ProfileNameTaken" xml:space="preserve">
+    <value>Oh no... Someone has already taken that name. Try another name?</value>
+  </data>
+  <data name="ProfilePage_ProfileNameTakenTitle" xml:space="preserve">
+    <value>Profile name taken</value>
+  </data>
+  <data name="ProfilePage_LocationPrivateMessage" xml:space="preserve">
+    <value>You won't be able to view other people's location either. Most people are happy to display this information.</value>
+  </data>
+  <data name="ProfilePage_LocationPrivateTitle" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="ProfilePage_LocationPrivateYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ProfilePage_LocationPrivateNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorTitle" xml:space="preserve">
+    <value>Validation Failed</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorMessage" xml:space="preserve">
+    <value>Please fix the following issues:{0}{0}{1}</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorCityMissing" xml:space="preserve">
+    <value>City is required{0}</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorCountryMissing" xml:space="preserve">
+    <value>Country is required{0}</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorProfileNameMissing" xml:space="preserve">
+    <value>Profile Name is required{0}</value>
+  </data>
+  <data name="ProfilePage_ValidationErrorProfileNameInvalid" xml:space="preserve">
+    <value>Profile Name cannot contain spaces{0}</value>
+  </data>
+  <data name="InvitePage_Title" xml:space="preserve">
+    <value>Invite &amp; Share</value>
+  </data>
+  <data name="InvitePage_PeerPressure" xml:space="preserve">
+    <value>There's nothing like a bit of peer pressure to get you motivated.</value>
+  </data>
+  <data name="InvitePage_InviteFriends" xml:space="preserve">
+    <value>Invite your friends and colleagues to get the app and{0}you can view each other's progress on Social Squirrel.</value>
+  </data>
+  <data name="InvitePage_InviteButton" xml:space="preserve">
+    <value> Invite </value>
+  </data>
+  <data name="InvitePage_BuddyRequest" xml:space="preserve">
+    <value>They’ve already got the app?</value>
+  </data>
+  <data name="InvitePage_SearchProfile" xml:space="preserve">
+    <value>Type in their profile name below and send a{0}buddy request to start sharing on Social Squirrel.</value>
+  </data>
+  <data name="InvitePage_SearchButton" xml:space="preserve">
+    <value> Search </value>
+  </data>
+  <data name="InvitePage_SearchInProgress" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="InvitePage_SearchNoInternet" xml:space="preserve">
+    <value>No internet connection</value>
+  </data>
+  <data name="InvitePage_NoProfileFoundMessage" xml:space="preserve">
+    <value>I couldn't find anyone with that profile name.</value>
+  </data>
+  <data name="InvitePage_NoProfileFoundTitle" xml:space="preserve">
+    <value>Profile not found</value>
+  </data>
+  <data name="InvitePage_FriendRequestSubmitted" xml:space="preserve">
+    <value>Buddy request has been sent to {0}. You will receive a notification when they have accepted your buddy request.</value>
+  </data>
+  <data name="InviteEmail_Subject" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="InviteEmail_Body" xml:space="preserve">
+    <value>&lt;html&gt;&lt;body&gt;&lt;p&gt;Hey&lt;/p&gt;&lt;p&gt;I've got this study planner app that allows me to share my progress with friends.&lt;/p&gt;&lt;p&gt;It would be great if you could also download it and we can keep each other motivated!&lt;/p&gt;&lt;a href="http://www.plannerpig.com"&gt;www.plannerpig.com&lt;/a&gt;&lt;br/&gt;&lt;a href="https://itunes.apple.com/gb/app/planner-pig/id1070913056?mt=8&amp;ign-mpt=uo%3D4"&gt;Download for iPhone / iPad&lt;/a&gt;&lt;br/&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.trianglecarrot.plannerpig"&gt;Download for Android&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="InviteEmail_Image" xml:space="preserve">
+    <value>http://plannerpig.azurewebsites.net/content/img/email-invite-image.jpg</value>
+  </data>
+  <data name="NotificationPage_Title" xml:space="preserve">
+    <value>Notification Settings</value>
+  </data>
+  <data name="ProfileFoundPage_Message" xml:space="preserve">
+    <value>Is it me you're looking for?</value>
+  </data>
+  <data name="ProfileFoundPage_FriendRequestTitle" xml:space="preserve">
+    <value>Friend Request</value>
+  </data>
+  <data name="ProfileFoundPage_FriendRequestExists" xml:space="preserve">
+    <value>A friend request has already been submitted to {0}</value>
+  </data>
+  <data name="ProfileFoundPage_ReverseFriendRequestExists" xml:space="preserve">
+    <value>{0} has sent you a friend request. Accept his/her invitation in your social squirrel page.</value>
+  </data>
+  <data name="ProfileFoundPage_BuddyUpWithSelf" xml:space="preserve">
+    <value>You can't buddy up with yourself.</value>
+  </data>
+  <data name="ProfileFoundPage_Yes" xml:space="preserve">
+    <value> Yes, send buddy request </value>
+  </data>
+  <data name="ProfileFoundPage_No" xml:space="preserve">
+    <value> No, search again </value>
+  </data>
+  <data name="Notifications_BuddyRequestMessage" xml:space="preserve">
+    <value>You have a new buddy request from {0}</value>
+  </data>
+  <data name="Notifications_BuddyRequestTitle" xml:space="preserve">
+    <value>Planner Pig buddy request</value>
+  </data>
+  <data name="Notifications_BuddyAchievementMessage" xml:space="preserve">
+    <value>{0} has completed {1}% of {2} </value>
+  </data>
+  <data name="Notifications_FollowUpMessage" xml:space="preserve">
+    <value>You've got some outstanding items to complete</value>
+  </data>
+  <data name="ListPage_Title" xml:space="preserve">
+    <value>List Lemur</value>
+  </data>
+  <data name="ListPage_SubTitle" xml:space="preserve">
+    <value>My current &amp; upcoming topics</value>
+  </data>
+  <data name="ListPage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ListPage_DeleteConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete item {0}?</value>
+  </data>
+  <data name="ListPage_LinkToTitle" xml:space="preserve">
+    <value>Link to topic:</value>
+  </data>
+  <data name="ListPage_Uncategorised" xml:space="preserve">
+    <value>Uncategorised</value>
+  </data>
+  <data name="ListPage_AddNewTitle" xml:space="preserve">
+    <value>Add tasks and link to exam topics</value>
+  </data>
+  <data name="ListPage_EmptyTaskList" xml:space="preserve">
+    <value>[Edit task list]</value>
+  </data>
+  <data name="ListPage_ViewAllFutureTasksSet" xml:space="preserve">
+    <value>View all future tasks set</value>
+  </data>
+  <data name="ListPage_HideAllFutureTasksSet" xml:space="preserve">
+    <value>Hide all future tasks set</value>
+  </data>
+  <data name="ListPage_TaskListPopupHeader" xml:space="preserve">
+    <value>{0} To do</value>
+  </data>
+  <data name="ListPage_TaskListPopupViewAll" xml:space="preserve">
+    <value> View All </value>
+  </data>
+  <data name="TitleBar_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="TitleBar_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="Notifications_BuddyReplyMessage" xml:space="preserve">
+    <value>{0} has {1} your buddy request</value>
+  </data>
+  <data name="Notifications_BuddyReplyMessageAccepted" xml:space="preserve">
+    <value>accepted</value>
+  </data>
+  <data name="Notifications_BuddyReplyMessageDeclined" xml:space="preserve">
+    <value>declined</value>
+  </data>
+  <data name="ReorderPage_Title" xml:space="preserve">
+    <value>Reorder Topics</value>
+  </data>
+  <data name="ReorderPage_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="TaskPage_Title" xml:space="preserve">
+    <value>Which tasks did you complete?</value>
+  </data>
+  <data name="TaskPage_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TaskPage_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+   <data name="UpgradePage_MenuTitle" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="UpgradePage_TitleOne" xml:space="preserve">
+    <value>Oops, this feature is only available on the full version</value>
+  </data>
+  <data name="UpgradePage_TitleTwo" xml:space="preserve">
+    <value>Upgrade to the full version</value>
+  </data>
+  <data name="UpgradePage_ParagraphOne" xml:space="preserve">
+    <value>Fed up of cramming? Is studying just about passing the exams? Or is it more to you?</value>
+  </data>
+  <data name="UpgradePage_ParagraphTwo" xml:space="preserve">
+    <value>We believe studying is an expression of our power to decide who to be, what to do and how to live. Get more out of studying by taking control of it.</value>
+  </data>
+  <data name="UpgradePage_ParagraphThree" xml:space="preserve">
+    <value>“What a man can be, He must be.”{0}A. Maslow</value>
+  </data>
+  <data name="UpgradePage_ParagraphFour" xml:space="preserve">
+    <value>Planner Pig is a personal trainer for your studies. Just like you can do more push-ups when somebody’s watching, you can study with more discipline and consistency when you do it with Planner Pig.</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesOne" xml:space="preserve">
+    <value>Full calendar view of your plan</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesTwo" xml:space="preserve">
+    <value>Study reward system</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesThree" xml:space="preserve">
+    <value>Reorder future tasks</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesFour" xml:space="preserve">
+    <value>Lemur the list maker</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesFive" xml:space="preserve">
+    <value>Change notification settings</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesSix" xml:space="preserve">
+    <value>Daily procrastination busting tips</value>
+  </data>
+  <data name="UpgradePage_UnlockFeaturesSeven" xml:space="preserve">
+    <value>Timetable exceptions</value>
+  </data>
+   <data name="UpgradePage_FindOutMore" xml:space="preserve">
+    <value> Find out More </value>
+  </data>
+  <data name="JobDonePage_Title" xml:space="preserve">
+    <value>Job Done</value>
+  </data>
+   <data name="JobDonePage_TotalPartOne" xml:space="preserve">
+    <value>That’s a total of </value>
+  </data> 
+  <data name="JobDonePage_TotalPartTwo" xml:space="preserve">
+    <value> hours</value>
+  </data>
+   <data name="JobDonePage_TotalPartThree" xml:space="preserve">
+    <value> so far this week.</value>
+  </data>
+   <data name="JobDonePage_HoursLeftPartOne" xml:space="preserve">
+    <value>You have </value>
+  </data> 
+  <data name="JobDonePage_HoursLeftPartTwo" xml:space="preserve">
+    <value> hours</value>
+  </data>
+   <data name="JobDonePage_HoursLeftPartThree" xml:space="preserve">
+    <value> left in your schedule to cover {0}% of </value>
+  </data>
+  <data name="JobDonePage_TopicCompleted" xml:space="preserve">
+    <value>You have completed </value>
+  </data> 
+  <data name="JobDonePage_MovingIntoPartOne" xml:space="preserve">
+    <value>That means you should be moving onto your next topic </value>
+  </data> 
+  <data name="JobDonePage_MovingIntoBy" xml:space="preserve">
+    <value>by</value>
+  </data> 
+  <data name="JobDonePage_MovingIntoIn" xml:space="preserve">
+    <value>in</value>
+  </data> 
+  <data name="JobDonePage_MovingIntoThisWeek" xml:space="preserve">
+    <value> this week</value>
+  </data>
+  <data name="JobDonePage_MovingIntoNextWeek" xml:space="preserve">
+    <value> next week</value>
+  </data>
+  <data name="JobDonePage_MovingIntoTomorrow" xml:space="preserve">
+    <value>tomorrow</value>
+  </data>
+  <data name="JobDonePage_MovingIntoDays" xml:space="preserve">
+    <value> days</value>
+  </data>
+  <data name="JobDonePage_Next" xml:space="preserve">
+    <value> Next </value>
+  </data>
+  <data name="ChallengePage_Title" xml:space="preserve">
+    <value>The Gifting Horse</value>
+  </data>
+  <data name="ChallengePage_Challenge" xml:space="preserve">
+    <value>Challenge</value>
+  </data>
+  <data name="ChallengePage_Complete" xml:space="preserve">
+    <value>Complete the five day{0}study streak to reveal{0}your mystery gift</value>
+  </data>
+  <data name="ChallengePage_ChallengeDayOne" xml:space="preserve">
+    <value>Day 1 - CHALLENGE ACCEPTED.</value>
+  </data>
+  <data name="ChallengePage_ChallengeDayTwo" xml:space="preserve">
+    <value>Day 2 - A GOOD START!</value>
+  </data>
+  <data name="ChallengePage_ChallengeDayThree" xml:space="preserve">
+    <value>Day 3 - OVER HALF WAY THERE!</value>
+  </data>
+  <data name="ChallengePage_ChallengeDayFour" xml:space="preserve">
+    <value>Day 4 - ONE MORE DAY, YOU DON'T WANT TO LOSE THIS!</value>
+  </data>
+  <data name="ChallengePage_ChallengeDayFive" xml:space="preserve">
+    <value>Day 5 - CHALLENGE COMPLETED.</value>
+  </data>
+  <data name="ChallengePage_ComeBack" xml:space="preserve">
+    <value>Come back tomorrow!</value>
+  </data>
+  <data name="ChallengePage_RevealGift" xml:space="preserve">
+    <value>Tap to reveal gift.</value>
+  </data>
+  <data name="PresentPage_PresentReceived" xml:space="preserve">
+    <value>You have received{0}{1}{0}from {2}!</value>
+  </data>
+  <data name="PresentPage_Thanks" xml:space="preserve">
+    <value>Thanks {0}</value>
+  </data>
+  <data name="PresentPage_Football" xml:space="preserve">
+    <value>a muddy deflated football</value>
+  </data>
+  <data name="PresentPage_Sashimi" xml:space="preserve">
+    <value>two pieces of fresh salmon sashimi</value>
+  </data>
+  <data name="PresentPage_Mouse" xml:space="preserve">
+    <value>a dead mouse</value>
+  </data>
+  <data name="PresentPage_Apple" xml:space="preserve">
+    <value>an almost finished apple</value>
+  </data>
+  <data name="PresentPage_Baguette" xml:space="preserve">
+    <value>a half of a stale baguette</value>
+  </data>
+  <data name="PresentPage_Egg" xml:space="preserve">
+    <value>a broken egg shell</value>
+  </data>
+  <data name="PresentPage_Pig" xml:space="preserve">
+    <value>Pig</value>
+  </data>
+  <data name="PresentPage_Owl" xml:space="preserve">
+    <value>Owl</value>
+  </data>
+  <data name="PresentPage_Bear" xml:space="preserve">
+    <value>Bear</value>
+  </data>
+  <data name="PresentPage_Cat" xml:space="preserve">
+    <value>Cat</value>
+  </data>
+  <data name="PresentPage_Squirrel" xml:space="preserve">
+    <value>Squirrel</value>
+  </data>
+  <data name="PresentPage_Horse" xml:space="preserve">
+    <value>Horse</value>
+  </data>
+  <data name="TopicTasksPage_Title" xml:space="preserve">
+    <value>Topic Tasks</value>
+  </data>
+  <data name="TopicTasksPage_TopSection" xml:space="preserve">
+    <value>Here you can break this topic down into practical tasks to be done in any order.</value>
+  </data>
+  <data name="TopicTasksPage_Tasks" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="TopicTasksPage_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="TopicTasksPage_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TopicTasksPage_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TopicTasksPage_StudyTip" xml:space="preserve">
+    <value>Study planning tip</value>
+  </data>
+  <data name="TopicTasksPage_Save" xml:space="preserve">
+    <value> Save </value>
+  </data>
+  <data name="TopicTasksPage_Cancel" xml:space="preserve">
+    <value> Cancel </value>
+  </data>
+  <data name="TopicTasksPage_StudyPlanningTipTitle" xml:space="preserve">
+    <value>Study Planning Tip:</value>
+  </data>
+  <data name="TopicTasksPage_StudyPlanningTipLineOne" xml:space="preserve">
+    <value>Can't think of any tasks? Build it around your study material, e.g. "Read book ABC", "Do past paper X"</value>
+  </data>
+  <data name="TopicTasksPage_StudyPlanningTipLineThree" xml:space="preserve">
+    <value>You can always come back and add more tasks or edit them later.</value>
+  </data>
+  <data name="TopicTasksPage_StudyPlanningTipLineTwo" xml:space="preserve">
+    <value>You can copy a task list from another topic to avoid entering it again.</value>
+  </data>
+  <data name="TopicTasksPage_StudyPlanningTipLineFour" xml:space="preserve">
+    <value>It is possible to have tasks with 0 hours allocated, for example, if you have more tasks than the number of hours available for this topic.</value>
+  </data>
+  <data name="TopicTasksPage_CopyTaskListFrom" xml:space="preserve">
+    <value>Copy task list from</value>
+  </data>
+  <data name="TopicTasksPage_Unallocated" xml:space="preserve">
+    <value>Task Not Set</value>
+  </data>
+   <data name="TopicTasksPage_NotUsedAllHoursMessage" xml:space="preserve">
+    <value>You haven't used up all available hours for this topic. Are you sure you want to continue?</value>
+  </data>
+   <data name="TopicTasksPage_ImportMessage" xml:space="preserve">
+    <value>Are you sure you want to import all task from the {0} list?</value>
+  </data>
+  <data name="TopicTasksPage_ImportTitle" xml:space="preserve">
+    <value>Import from list</value>
+  </data>
+  <data name="TopicTasksPage_CancelImport" xml:space="preserve">
+    <value>Edit list in app</value>
+  </data>
+   <data name="TopicTasksPage_GoToWebListsMessage" xml:space="preserve">
+    <value>Go to {0} to enter and save your tasks</value>
+  </data>
+  <data name="MenuPage_Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="MenuPage_ProgressDashboard" xml:space="preserve">
+    <value>Progress Dashboard</value>
+  </data>
+  <data name="MenuPage_WeeklyCalendar" xml:space="preserve">
+    <value>Weekly Calendar</value>
+  </data>
+  <data name="MenuPage_TaskListMaker" xml:space="preserve">
+    <value>Task List Maker</value>
+  </data>
+  <data name="MenuPage_StudyHistory" xml:space="preserve">
+    <value>Study History</value>
+  </data>
+  <data name="MenuPage_BarChart" xml:space="preserve">
+    <value>Bar Chart</value>
+  </data>
+  <data name="MenuPage_ExamPlanner" xml:space="preserve">
+    <value>Exam Planner</value>
+  </data>
+  <data name="MenuPage_SocialPage" xml:space="preserve">
+    <value>Social Page</value>
+  </data>
+  <data name="MenuPage_MyProfile" xml:space="preserve">
+    <value>My profile</value>
+  </data>
+  <data name="MenuPage_GetInTouch" xml:space="preserve">
+    <value>Get in touch</value>
+  </data>
+  <data name="MenuPage_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="MenuPage_Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="MenuPage_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="SubscribePage_Title" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="SubscribePage_MessageTrial" xml:space="preserve">
+    <value>You are currently on day {0} of your {1} day free trial.</value>
+  </data>
+  <data name="SubscribePage_MessageTrialEnded" xml:space="preserve">
+    <value>Your {0} day free trial has ended. Subscribe now to start using Planner Pig.</value>
+  </data>
+  <data name="SubscribePage_MessagePrepaidSubsription" xml:space="preserve">
+    <value>You are currently on a prepaid {0} month subscription. It will end on {1}.</value>
+  </data>
+  <data name="SubscribePage_MessagePrepaidSubscriptionEnded" xml:space="preserve">
+    <value>Your subscription has ended. Your plan expires on the {0}, the date of your last exam. Resubscribe now to access your plan.</value>
+  </data>
+  <data name="SubscribePage_MessagePrepaidSubscriptionEndedPastExam" xml:space="preserve">
+    <value>Your subscription has ended. Resubscribe now to plan a new exam.</value>
+  </data>
+  <data name="SubscribePage_MessagePrepaidSubscription" xml:space="preserve">
+    <value>You are currently on a prepaid {0} month subscription. It will end on {1}.</value>
+  </data>
+  <data name="SubscribePage_MessageGrandFatheredLicense" xml:space="preserve">
+    <value>You have purchased an older version of Planner Pig. You don't need to subscribe.</value>
+  </data>
+  <data name="SubscribePage_MessageRollingSubscription" xml:space="preserve">
+    <value>You are currently on a rolling 1 month subscription plan. Your next renewal is in {0} days.</value>
+  </data>
+  <data name="SubscribePage_StatsTitle" xml:space="preserve">
+    <value>Did you know? Since you downloaded Planner Pig you have:</value>
+  </data>
+  <data name="SubscribePage_StatOne" xml:space="preserve">
+    <value>• Logged in {0} times</value>
+  </data>
+  <data name="SubscribePage_StatTwo" xml:space="preserve">
+    <value>• Planned {0} consisting of {1}</value>
+  </data>
+  <data name="SubscribePage_StatThree" xml:space="preserve">
+    <value>• Completed {0} of study and {1}</value>
+  </data>
+  <data name="SubscribePage_StatFour" xml:space="preserve">
+    <value>• Earned {0}</value>
+  </data>
+  <data name="SubscribePage_BuyMessageTrial" xml:space="preserve">
+    <value>To continue using Planner Pig after your free trial ends subscribe to one of our plans below:</value>
+  </data>
+  <data name="SubscribePage_BuyMessageTrialMembershipEnded" xml:space="preserve">
+    <value>To continue using Planner Pig subscribe to one of our plans below:</value>
+  </data>
+  <data name="SubscribePage_BuyMessagePrePaid" xml:space="preserve">
+    <value>To extend your subscription at the end of your current subscription period select one of our plans below:</value>
+  </data>
+  <data name="SubscribePage_BuyMessageRolling" xml:space="preserve">
+    <value>To change to a pre-paid plan you will need to cancel your renewal and resubscribe.</value>
+  </data>
+  <data name="SubscribePage_NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="SubscribePage_PricePerMonth" xml:space="preserve">
+    <value>({0}{1} per month)</value>
+  </data>
+  <data name="SubscribePage_BuyingPlan" xml:space="preserve">
+    <value>Updating your current plan</value>
+  </data>
+  <data name="SubscribePage_SelectPlan" xml:space="preserve">
+    <value>Please select a plan</value>
+  </data>
+  <data name="SubscribePage_RetrieveStoreInfo" xml:space="preserve">
+    <value>Retrieving product information</value>
+  </data>
+  <data name="SubscribePage_NoNetwork" xml:space="preserve">
+    <value>Can't connect to the store</value>
+  </data>
+  <data name="SubscribePage_RestoringPurchases" xml:space="preserve">
+    <value>Restoring your purchases</value>
+  </data>
+  <data name="Action_AddHoldTitle" xml:space="preserve">
+    <value>Adding a holiday</value>
+  </data>
+  <data name="Action_AddHoldMessage" xml:space="preserve">
+    <value>Select a date on the calendar and{0}tap on 'Add a rest day' to take a break{0}from all your studies that day.</value>
+  </data>
+  <data name="Action_ChangeHoursTitle" xml:space="preserve">
+    <value>Changing study hours</value>
+  </data>  
+    <data name="Action_ChangeHoursMessage" xml:space="preserve">
+    <value>Select a date on the calendar and{0}tap on the plus/minus icon next to the exam name{0}to change the study hours for that day for that exam.</value>
+  </data>
+    <data name="Action_ClearDaysMessage" xml:space="preserve">
+    <value>Are you sure you want to clear{0}this exam's schedule for the next 3 days?</value>
+  </data>
+</root>
